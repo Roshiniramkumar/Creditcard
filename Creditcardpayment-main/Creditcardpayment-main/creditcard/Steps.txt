@@ -28,15 +28,15 @@ source ~/.bash_profile
 java
 javac
 
-git clone https://github.com/awsdevopsbykumar/SpringBootRestAPIMySQLDockerKubernetes.git
+git clone 
 cd SpringBootRestAPIMySQLDockerKubernetes/SpringBootRestAPIMySQLDockerKubernetes
 
 mvn clean package  -Dmaven.test.skip=true
 
 docker login
 
-docker image build -t awsdevopsbykumar/springbootmysqldockerkubernetes .
-docker push awsdevopsbykumar/springbootmysqldockerkubernetes
+docker image build -t roshinir/creditcardapplication .
+docker push roshinir/creditcardapplication
 
-docker container run --name springbootmysqldockerkubernetes -p 8080:8080 -d awsdevopsbykumar/springbootmysqldockerkubernetes
-docker container logs springbootmysqldockerkubernetes
+docker container run --name creditcardapplication -p 8080:8080 -d roshinir/creditcardapplication
+docker container logs creditcardapplication
