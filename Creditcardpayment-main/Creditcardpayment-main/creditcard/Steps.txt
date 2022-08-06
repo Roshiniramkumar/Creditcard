@@ -29,7 +29,7 @@ java
 javac
 
 git clone https://github.com/Roshiniramkumar/Creditcard.git
-cd SpringBootRestAPIMySQLDockerKubernetes/SpringBootRestAPIMySQLDockerKubernetes
+cd Creditcard/Creditcardpayment-main/Creditcardpayment-main/creditcard
 
 mvn clean package  -Dmaven.test.skip=true
 
