@@ -28,7 +28,7 @@ source ~/.bash_profile
 java
 javac
 
-git clone 
+git clone https://github.com/Roshiniramkumar/Creditcard.git
 cd SpringBootRestAPIMySQLDockerKubernetes/SpringBootRestAPIMySQLDockerKubernetes
 
 mvn clean package  -Dmaven.test.skip=true
